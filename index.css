@@ -1,0 +1,190 @@
+/* Reset browser preset stylings */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Make the audio, video and image tag to take 100% of the screen to fix horizontal scroll/overflow */
+img, 
+video,
+audio {
+    max-width: 100%;
+}
+nav{
+    background-color:#ba8c0d;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
+
+nav a {
+    text-decoration:none;
+    color:white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+.hero{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 12px;
+}
+.hero h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Sub hero Section */
+.sub-hero{
+    margin-top: 60px;
+    background-color: #ba8c0d;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    color: white;
+}
+
+.sub-hero h2{
+    font-size: 20px;
+    text-align: center;
+}
+.sub-hero h2 span {
+    color: black;
+}
+.sub-hero img{
+    border-radius: 8px;
+}
+
+/* Hairstyles Section */
+#hairstyles{
+    margin: 60px auto 0px auto; 
+    padding: 0px 20px;
+}
+
+#hairstyles h2{
+    text-align: center;
+    color: #ba8c0d;
+    margin-bottom: 20px;
+}
+
+#hairstyles ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/* Pricing */
+#pricing{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+#pricing h2{
+    color: #ba8c0d;
+    text-align: center;
+}
+
+#pricing table{
+    border-collapse: collapse;
+}
+
+#pricing table th, td{
+    border: 1px solid #ba8c0d;
+    text-align: center;
+    padding: 8px;
+    width: 50%;
+}
+
+#pricing table tr:nth-child(even){
+    background-color: #ddd;
+}
+
+/* Media  */
+#media{
+    background-color: black;
+    padding: 60px 20px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#media h2{
+    color:#ba8c0d;
+    text-align: center;
+}
+
+#media h4{
+    color: white;
+}
+/* About Us */
+#about-us{
+    margin-top: 60px;
+    padding: 0px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#about-us h2{
+    color: #ba8c0d;
+}
+
+/* Contact Us */
+#contact-us{
+    background-color: #ba8c0d;
+    margin-top: 60px;
+    padding: 60px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+#contact-us h2{
+    color:white;
+    font-size: 30px;
+}
+
+#contact-us h3{
+    text-align: center;
+}
+
+#contact-us form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact-us form label {
+    font-size: 18px;
+}
+
+#contact-us form input, #contact-us form textarea{
+    padding: 10px 12px;
+    border:#ba8c0d;
+    border-radius: 10px;
+} 
+#contact-us form button{
+    background-color: black;
+    color: white;
+    padding: 10px 12px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
